@@ -2,7 +2,7 @@
 Udacity Javascript Testing Project with [Jasmine](https://jasmine.github.io/).
 
 ## Instructions
-This is a Feed Reader needed to be tested.
+This is a Feed Reader that loads articles (XML files), with 4 different subjects that can be selected from the menu.
 
 ### How to check files
 
