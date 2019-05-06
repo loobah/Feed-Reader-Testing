@@ -14,6 +14,6 @@ Drag the file `index.html` at your browser window.
 
 ## Contributing
 
-This Javascript code was tested with Jasmine, please check [link](https://jasmine.github.io/) for more details.
+This Javascript code was tested with Jasmine, please check this [link](https://jasmine.github.io/) to learn more.
 
 Felipe Fragoso - 06 may 2019
