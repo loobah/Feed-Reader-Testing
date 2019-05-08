@@ -67,9 +67,9 @@ $(function() {
 
 		// Checks if there's content.
 		it('Completes work', function() {
-			const container = document.querySelector('.feed');
+			const container = document.querySelector('.feed .entry');
 			expect(container.children.length > 0).toBe(true);
-        });
+		});
 	});
 
 	// Tests if it loads new content.
