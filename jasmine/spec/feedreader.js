@@ -56,10 +56,9 @@ $(function() {
 		})
 	});
 
-	// Tests if feeds are loading to the page.
+	// Tests if feeds are loading to the page "asynchronically".
 	describe('Initial Entries', function() {
 
-		// "Done" handles "asynchronicity".
 		beforeEach(function(done) {
 			loadFeed(0, done);
 		});
