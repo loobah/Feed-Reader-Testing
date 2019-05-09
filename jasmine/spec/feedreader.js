@@ -59,16 +59,15 @@ $(function() {
 	// Tests if feeds are loading to the page.
 	describe('Initial Entries', function() {
 
-		// Checks  if feeder contains a single entry element
 		// "Done" handles "asynchronicity".
 		beforeEach(function(done) {
 			loadFeed(0, done);
 		});
 
-		// Checks if there's content.
-		it('Completes work', function() {
-			const container = document.querySelector('.feed .entry');
-			expect(container.children.length > 0).toBe(true);
+		it('Loads feed', function() {
+			//Checks if there's more than one entry inside the feed.
+			const checkEntries = $('.feed .entry').length;
+			expect(checkEntries).toBeGreaterThan(0);
 		});
 	});
 
@@ -90,7 +89,6 @@ $(function() {
 				});
 			});
 		});
-
 
 		// Checks 1st feed vs new.
 		it('Content changes', function() {
